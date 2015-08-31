@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>溯源</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">     
+
+	<link href="css/reset.css" rel="stylesheet"> 
+	<link href="css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="wrap">
+		<head>
+			<div class="header-inner">
+				<div class="img-blru">&nbsp;</div>
+				<div id="imageHolder" class="image-source">
+					 <img id="srcimg" width="640" height="243" src="images/banner_022.jpg" style="display:none">
+					 <!-- 一定要限制 id="srcimg" 上传的图片尺寸为： width="640" height="243"-->
+				</div>
+				<div id="canvasc" class="canvas-block">
+					 <canvas height="243" id="canvas6"></canvas>
+				</div>
+				<div class="head-img">
+					<div class="head-img-inner">
+						<img src="images/circle-img_03.png" width="130" height="130">
+						<span>
+							<img src="images/user.png" width="50" height="50">
+						</span>
+					</div>
+				</div>
+				<i class="icon icon-mark">新侬安全</i>
+			</div>
+		</head>
+		<div class="guild-nav">
+			<ul class="clearfix">
+				<li>
+					<a href="javascript:void(0)">
+						<i class="icon icon-name"></i>
+						<span>作物学名</span>
+						<span>西红柿</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<i class="icon icon-address"></i>
+						<span>生长基地</span>
+						<span>廊坊-永清</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<i class="icon icon-number"></i>
+						<span>大棚编号</span>
+						<span>NO.1</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<i class="icon icon-time"></i>
+						<span>采摘时间</span>
+						<span>2015-08-12</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<i class="icon icon-delivery"></i>
+						<span>配送耗时</span>
+						<span>20小时</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<i class="icon icon-temperature"></i>
+						<span>配送环温</span>
+						<span>25℃</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="container">
+				<div class="space10">
+					<div class="timeline">
+							<div class="timeline-container">
+								<div class="timeline-line"></div>
+
+								<div class="timeline-row clearfix">
+									<div class="timeline-time">
+										<span>&nbsp;</span>
+									</div>
+									<div class="timeline-icon">
+										<i class="icon-min icon-circle"></i>
+									</div>
+									<div class="timeline-content">
+										<h2>生长过程</h2>
+									</div>
+								</div>
+
+								<div class="timeline-row clearfix">
+									<div class="timeline-time">
+										<span>2015-<br/>05-04</span>
+									</div>
+									<div class="timeline-icon">
+										<i class="icon-min icon-seed"></i>
+									</div>
+									<div class="timeline-content">
+										<h4>种子期：10天</h4>
+										<div class="timeline-content-inner">
+											<p>
+												<span><i class="dotted">&bull;</i>10次浇水</span>
+												<span><i class="dotted">&bull;</i>1次除草</span>
+												<span><i class="dotted">&bull;</i>1次松土</span>
+												<span><i class="dotted">&bull;</i>1次缠头</span>
+												<span><i class="dotted">&bull;</i>1次吊秧</span>
+												<span><i class="dotted">&bull;</i>1次打杈</span>
+											</p>
+											<a href="nongyao.html">3次打药</a>
+											<a href="#">3次施肥</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="timeline-row clearfix">
+									<div class="timeline-time">
+										<span>2015-<br/>06-04</span>
+									</div>
+									<div class="timeline-icon">
+										<i class="icon-min icon-flower"></i>
+									</div>
+									<div class="timeline-content">
+										<h4>花朵期：10天</h4>
+										<div class="timeline-content-inner">
+											<p>
+												<span><i class="dotted">&bull;</i>10次浇水</span>
+												<span><i class="dotted">&bull;</i>1次除草</span>
+												<span><i class="dotted">&bull;</i>1次松土</span>
+												<span><i class="dotted">&bull;</i>1次缠头</span>
+												<span><i class="dotted">&bull;</i>1次吊秧</span>
+												<span><i class="dotted">&bull;</i>1次打杈</span>
+											</p>
+											<a href="#">3次打药</a>
+											<a href="#">3次施肥</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="timeline-row clearfix">
+									<div class="timeline-time">
+										<span>2015-<br/>08-04</span>
+									</div>
+									<div class="timeline-icon">
+										<i class="icon-min icon-fruit"></i>
+									</div>
+									<div class="timeline-content">
+										<h4>果实期：10天</h4>
+										<div class="timeline-content-inner">
+											<p>
+												<span><i class="dotted">&bull;</i>10次浇水</span>
+												<span><i class="dotted">&bull;</i>1次除草</span>
+												<span><i class="dotted">&bull;</i>1次松土</span>
+												<span><i class="dotted">&bull;</i>1次缠头</span>
+												<span><i class="dotted">&bull;</i>1次吊秧</span>
+												<span><i class="dotted">&bull;</i>1次打杈</span>
+											</p>
+											<a href="#">3次打药</a>
+											<a href="#">1次打农药：a农药试试</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="timeline-row clearfix">
+									<div class="timeline-time">
+										<span>2015-<br/>12-04</span>
+									</div>
+									<div class="timeline-icon">
+										<i class="icon-min icon-grown"></i>
+									</div>
+									<div class="timeline-content">
+										<h4>成熟期：10天</h4>
+										<div class="timeline-content-inner">
+											<p>
+												<span><i class="dotted">&bull;</i>10次浇水</span>
+												<span><i class="dotted">&bull;</i>1次除草</span>
+											</p>
+											<a href="#">3次施肥</a>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<h2 class="module-title">安全检测</h2>
+				<div class="space10">
+					<ul class="list-detection">
+						<li>
+							<a class="clearfix" href="baogao-list.html">
+								<span><i class="icon list-circle"></i>西红柿检测报告</span>
+								<span> <i class="icon circle-right"></i>检测合格</span>
+							</a>
+						</li>
+
+						<li>
+							<a class="clearfix" href="#">
+								<span><i class="icon list-circle"></i>永清基地水质检测报告</span>
+								<span> <i class="icon circle-right"></i>检测合格</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="container">
+				<h2 class="module-title">自然条件</h2>
+				<ul class="list-conditions clearfix">
+					<li>
+						<i class="icon icon-sun"></i>
+						<p>20天</p>
+					</li>
+					<li>
+						<i class="icon icon-rain"></i>
+						<p>20天</p>
+					</li>
+					<li>
+						<i class="icon icon-cloudy"></i>
+						<p>20天</p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="container">
+				<div class="space10">
+					<div class="module1">
+						<div class="title-group clearfix">
+							<span>土壤</span>
+							<span class="btn-group">
+								<div class="clearfix">
+									<a class="active" href="#">湿度</a>
+									<a href="#">温度</a>
+								</div>
+							</span>
+						</div>
+						<div class="chart-module">
+							<canvas id="canvas" height="150" width="300"></canvas>
+							<p>生长周期</p>
+						</div>
+					</div>
+
+					<div class="module2">
+						<div class="title-group clearfix">
+							<span>空气</span>
+							<span class="btn-group">
+								<div class="clearfix">
+									<a class="active" href="#">co2浓度</a>
+									<a href="#">温度</a>
+								</div>
+							</span>
+						</div>
+						<div class="chart-module">
+							<canvas id="canvas2" height="150" width="300"></canvas>
+							<p>生长周期</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/Chart.min.js"></script><!-- 图表信息js -->
+<script type="text/javascript" src="js/chart-module.js"></script><!-- 图表信息设置 -->
+<script type="text/javascript" src="js/StackBlur.js"></script><!-- 模糊 -->
+<script type="text/javascript">
+    stackBlurImage("srcimg", "canvas6", 25 , false);
+</script>
+</body>
+</html>
