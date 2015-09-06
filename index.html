@@ -17,15 +17,11 @@
 	<div class="wrap">
 		<head>
 			<div class="header-inner">
-				<div class="img-blru">&nbsp;</div>
-				<div id="imageHolder" class="image-source">
-					 <img id="srcimg" width="640" height="243" src="images/banner_022.jpg" style="display:none">
-					 <!-- 一定要限制 id="srcimg" 上传的图片尺寸为： width="640" height="243"-->
+				<div class="image-source">
+					 <img id="srcimg" src="images/banner_02.jpg">
+					 <!-- 一定要限制 id="srcimg" 上传的图片尺寸为： width="640" height="386"-->
 				</div>
-				<div id="canvasc" class="canvas-block">
-					 <canvas height="243" id="canvas6"></canvas>
-				</div>
-				<div class="head-img">
+				<!-- <div class="head-img">
 					<div class="head-img-inner">
 						<img src="images/circle-img_03.png" width="130" height="130">
 						<span>
@@ -33,7 +29,7 @@
 						</span>
 					</div>
 				</div>
-				<i class="icon icon-mark">新侬安全</i>
+				<i class="icon icon-mark">新侬安全</i> -->
 			</div>
 		</head>
 		<div class="guild-nav">
@@ -274,9 +270,5 @@
 
 <script src="js/Chart.min.js"></script><!-- 图表信息js -->
 <script type="text/javascript" src="js/chart-module.js"></script><!-- 图表信息设置 -->
-<script type="text/javascript" src="js/StackBlur.js"></script><!-- 模糊 -->
-<script type="text/javascript">
-    stackBlurImage("srcimg", "canvas6", 25 , false);
-</script>
 </body>
 </html>
