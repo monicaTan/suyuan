@@ -32,7 +32,8 @@
 						</ul>
 					</div>
 				</div>
-				<div class="white-div"></div>
+				<img src="images/intro.jpg">
+				<!-- <div class="white-div"></div> -->
 				<div class="intro-txt" id="one">
 					<h2>公司简介</h2>
 					<p>
@@ -78,7 +79,7 @@
 <script type="text/javascript">
 	$(function(){
 	    var hei = $('.intro-head').height();
-	    var heiw = $('.white-div').css({"height":hei});
+	    //var heiw = $('.white-div').css({"height":hei});
 		$(".intro-top ul a").click(function(){
 		    var href = $(this).attr("href");
 		    var pos = $(href).offset().top - hei;
